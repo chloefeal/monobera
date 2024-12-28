@@ -64,7 +64,7 @@ const CancelWithdraw = ({
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="overflow-y-hidden pb-6 focus:outline-none">
           <DialogHeader>
-            <DialogTitle className="mb-3">Cancel Withdrawl Amount</DialogTitle>
+            <DialogTitle className="mb-3">Cancel Withdrawal Amount</DialogTitle>
           </DialogHeader>
           <TokenList>
             <TokenInput
