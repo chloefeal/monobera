@@ -84,7 +84,7 @@ export const usePsm = (): PsmHookReturn => {
   const [toAmount, setToAmount] = useState<Record<Address, string | undefined>>(
     {},
   );
-  // state for the asset that is changed, usefull to keep a value still in the input field
+  // state for the asset that is changed, useful to keep a value still in the input field
   const [changedAsset, setChangedAsset] = useState<Address | undefined>(
     undefined,
   );
