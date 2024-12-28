@@ -31,7 +31,7 @@ export interface HoneyPreviewReadResult {
 }
 
 /**
- * fetch the mint and redeem rate of all colleteral tokens
+ * fetch the mint and redeem rate of all collateral tokens
  */
 export const getHoneyPreview = async ({
   client,
